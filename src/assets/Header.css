@@ -1,0 +1,93 @@
+@import url("https://use.typekit.net/mof7pom.css");
+
+@font-face {
+    font-family: "made tommy";
+    src: url(./Fonts//title.otf);
+}
+:root {
+    --RED: #FF2145;
+    --DARK-BLACK: #161C22;
+    --BLACK: #22262A;
+    --BLUE-BLACK: #262A32;
+    --GRAY: #373B40;
+    --SHADOW: rgba(55, 59, 64, 0.12);
+    --SHADOW-DARK: rgba(55, 59, 64, 0.5);
+    --OFF-WHITE: #e6e6e6;
+    --FADED-RED: rgba(255, 33, 69, 0.3);
+    --BLUE: rgba(0, 119, 182, 0.502);
+}
+
+.Whole {
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    margin-top: 15vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 6vw;
+}
+.name {
+    font-family: "made tommy", sans-serif;
+    font-size: 225px;
+    text-shadow: 2px 2px 0px var(--RED), -2px -2px 0px var(--BLUE);
+    transition: opacity 1s ease-in-out;
+    font-weight: bold;
+}
+.visable {
+    opacity: 1 !important;
+}
+.invisable {
+    opacity: 0 !important;
+}
+
+.extra { 
+    display: flex;
+    margin-bottom: 10vh;
+}
+.about {
+    margin-top: 7vh;
+    margin-left: 1vw;
+}
+.icons {
+    margin-top: 7vh;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons i {
+    font-weight: 400;
+    font-size: 20px;
+}
+.icons a {
+    margin-top: 10px;
+    color: var(--BLACK);
+    transition: color 0.3s linear;
+}
+
+.icons a:hover {
+    color: var(--RED);
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.link {
+    color: var(--RED);
+    border-bottom: 1px dashed var(--RED);
+    cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+    .icons {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    .about {
+        margin-top: 5vh;
+        margin-left: 3vw;
+    }
+}

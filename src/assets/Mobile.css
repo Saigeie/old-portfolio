@@ -1,0 +1,65 @@
+:root {
+    --RED: #FF2145;
+    --DARK-BLACK: #161C22;
+    --BLACK: #22262A;
+    --BLUE-BLACK: #262A32;
+    --GRAY: #373B40;
+    --SHADOW: rgba(55, 59, 64, 0.12);
+    --SHADOW-DARK: rgba(55, 59, 64, 0.5);
+    --OFF-WHITE: #e6e6e6;
+    --FADED-RED: rgba(255, 33, 69, 0.3);
+    --BLUE: rgba(0, 119, 182, 0.5);
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .projectImage {
+        display: none;
+    }
+
+    .mainContainer {
+        margin-left: 3vw;
+    }
+
+    .Project {
+        width: 300px;
+        height: 310px;
+    }
+    
+
+    .projectTitle {
+        margin-left: 4vw;
+    }
+    .aboutProject {
+        margin-left: 1vw;
+    }
+
+    .Button {
+        margin-left: 5vw;
+        
+    }
+    
+    .exploreButton {
+        box-shadow: 0px 0px 0px var(--FADED-RED);
+    }
+
+    .name {
+        font-size: 115px;
+        text-align: center;
+    }
+    
+    .divider {
+        margin-left: 4vw;
+    }
+
+
+    .icons {
+        margin-top: 5vh;
+        margin-left: 6vw;
+    }
+    .about {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+}

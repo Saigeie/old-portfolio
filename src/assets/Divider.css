@@ -1,0 +1,20 @@
+:root {
+    --RED: #FF2145;
+    --DARK-BLACK: #161C22;
+    --BLACK: #22262A;
+    --BLUE-BLACK: #262A32;
+    --GRAY: #373B40;
+    --SHADOW: rgba(55, 59, 64, 0.12);
+    --SHADOW-DARK: rgba(55, 59, 64, 0.5);
+    --OFF-WHITE: #e6e6e6;
+    --FADED-RED: rgba(255, 33, 69, 0.3);
+    --BLUE: rgba(0, 118, 181, 0.502);
+}
+
+.divider {
+    width: 80vw;
+    margin-left: 7vw;
+    height: 2px;
+    background-color: var(--BLACK);
+    box-shadow: 2px 2px 0px var(--RED), -2px -2px 0px var(--BLUE);
+}

@@ -1,0 +1,145 @@
+:root {
+    --DARK-BLACK: #161C22;
+    --BLACK: #22262A;
+    --BLUE-BLACK: #262A32;
+    --GRAY: #373B40;
+    --SHADOW: rgba(55, 59, 64, 0.12);
+    --SHADOW-DARK: rgba(55, 59, 64, 0.5);
+    --OFF-WHITE: #e6e6e6;
+    --FADED-RED: rgba(255, 33, 69, 0.3);
+    --BLUE: rgba(0, 119, 182, 0.5);
+    --RED: #FF2145;
+    --RED2: #800f2f;
+    --BLUEGRAD: #4b6fe9;
+    --BLUEGRAD2: #67c6f0;
+    --GREENGRAD: #2fd6b6;
+    --GREENGRAD2: #97dc9b;
+}
+
+@font-face {
+    font-family: "made tommy";
+    src: url(./Fonts//title.otf);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.mainContainer {
+    margin-left: 7vw;
+    display: flex;
+    width: 80vw;
+    gap: 2vw;
+    margin-bottom: 10vh;
+}
+
+.Project {
+    background-color: var(--OFF-WHITE);
+    box-shadow: 0px 0px 10px var(--SHADOW);
+    width: 500px;
+    border-radius: 20px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}   
+
+.projectImage {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.aboutProject {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.type {
+    font-family: "made tommy";
+    opacity: 0.5;
+    margin: 30px 0px 10px 30px;
+}
+.projectTitle {
+    color: var(--BLUE-BLACK);
+    font-family: "made tommy";
+    font-size: 45px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 0px var(--RED), -1px -1px 0px var(--BLUE);
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+.projectTitle:hover {
+    text-shadow: 3px 3px 0px var(--RED), -3px -3px 0px var(--BLUE);
+}
+
+.projectImage {
+    margin: 0px 0px 0px 30px;
+    box-shadow: 0px 3px 5px var(--SHADOW-DARK);
+}
+
+.projectmain {
+    display: flex;
+    align-items: flex-start;
+}
+
+.aboutProjectText {
+    margin-left: 16px;
+    max-width: 300px;
+}
+.Button {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.5vw;
+    margin-top: 1.8vh;
+}
+
+.exploreButton {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--GRAY);
+    opacity: 0.5;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vh;
+}
+
+.channelName {
+    color: var(--RED);
+    border-bottom: 1px dashed var(--RED);
+}
+
+.Button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button i {
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 1440px) {
+    .exploreButton {
+        margin-top: 0.2vh;
+    }
+    .Button {
+        margin-left: 3vw;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 31vw;
+    }
+}
